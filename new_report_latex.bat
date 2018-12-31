@@ -47,7 +47,7 @@ mkdir %1\figures
 (
 echo \documentclass[../%2.tex]{subfiles}
 echo \begin{document}
-echo Secci\'on %1
+::echo Secci\'on %1
 echo \end{document}
 )>"%1\%1.tex"
 
